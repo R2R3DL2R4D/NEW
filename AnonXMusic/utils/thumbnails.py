@@ -10,7 +10,7 @@ import random
 from PIL import Image, ImageChops, ImageOps, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from youtubesearchpython.__future__ import VideosSearch
 
-from AnonXMusic import bot
+from AnonXMusic import app
 from AnonXMusic.resource import thumbs, colors
 from config import YOUTUBE_IMG_URL
 
