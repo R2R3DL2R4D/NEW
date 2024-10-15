@@ -69,11 +69,12 @@ async def get_thumb(videoid, user_id):
                     await f.close()
 
         try:
-            wxyz = await bot.get_profile_photos(user_id)
-            wxy = await bot.download_media(wxyz[0]['file_id'], file_name=f'{user_id}.jpg')
+            wxyz = await app.get_profile_photos(user_id)
+            wxy = await app.download_media(wxyz[0]['file_id'], file_name=f'{user_id}.jpg')
         except:
-            abc = await bot.get_profile_photos(bot.id)
-            wxy = await bot.download_media(abc[0]['file_id'], file_name=f'{bot.id}.jpg')
+            abc = await app.get_profile_photos(app.id)
+            wxy = await 
+app.download_media(abc[0]['file_id'], file_name=f'{app.id}.jpg')
         xy = Image.open(wxy)
         a = Image.new('L', [640, 640], 0)
         b = ImageDraw.Draw(a)
