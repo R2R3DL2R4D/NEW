@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQGt9tsAbo5pg93xYjpYZQt3V0jBiw_4A18S7bmdcSzcuiFi96egm-CyGvKzDQ2wH6losYr0ia8GX92aPAnvMUq7zAoeyNacsxi_BHYRGg7lYcpD0SxtFjYI-HASkU-r1JVBZslCKBJyfIKyuN9IvFvLUs5ZRBxAwyTmxDSPTcya7zo1ydfxNVI1in-O-fYly_irEMLB8UonilnpV1ketPp8h26LgFz-iDJHpTsLB0Y6j9hN6qat4BPkT9z9_I_4SX1FT-iOahJX4pdz7Wxav8frS7ltRyZ2Yo-9JecC_Q8CHIxzp-7mHIUKLPd3NdJEaLvuGs6HoEe1Ag0mMtQN34Ass3txdgAAAAFlP-m7AA")
+STRING1 = getenv("STRING_SESSION", "BQGt9tsAlUezTyE3NXPzgyhZ58zkS8IcG2bdCq2IM43OBYqIWQe2FvASn0w-spivpvcLyjvxFhKQWdCL_gcK_XTu_41izKR21kd48DpRKt36AaHdxdf1RB6P54MhVWNMCaGvAwqdU9UMajcdl-j95zPZ42gOvaehq-MEI-1gUeKcd_fpSis5IO4MiPsJpQTtdphra9SDVqd1afc5fneiczrIQ3MHX21EZVT3-HEc2o0NumIpYjuTKmaVGTShMPtRaJHkos-f3mudmUQTvD8xmqCrrctYJglEQr3zxektJ0DYYcjfj_wNYwP_CmgQuMO98010gbbSmOF1WxKZMpCly0teia2YBwAAAAFC8M17AA")
 STRING2 = getenv("STRING_SESSION2", "")
 STRING3 = getenv("STRING_SESSION3", "")
 STRING4 = getenv("STRING_SESSION4", "")
