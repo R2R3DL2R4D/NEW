@@ -85,7 +85,9 @@ async def get_thumb(videoid,user_id):
         xp=Image.open(sp)
 
         youtube = Image.open(f"cache/thumb{videoid}.png")
+        bg = Image.open(f"AnonXMusic/assets/thumb_01.png")
         image1 = changeImageSize(1280, 720, youtube)
+        image3 = changeImageSize(1280, 720, bg)
         image2 = image1.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(10))
         enhancer = ImageEnhance.Brightness(background)
